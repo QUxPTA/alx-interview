@@ -58,7 +58,8 @@ def isWinner(x, nums):
         nums (list): A list of upper limits for each round.
 
     Returns:
-        str: The name of the player that won the most rounds ("Maria" or "Ben").
+        str: The name of the player that won the most rounds
+             ("Maria" or "Ben").
              If the winner cannot be determined, returns None.
     """
     max_n = max(nums)
